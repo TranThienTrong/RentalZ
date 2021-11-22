@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/address_search_field-4.0.1/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/audio_session-0.1.6/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-2.5.3/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/connectivity-3.0.6/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/firebase_auth-3.1.1/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.6.0/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/firebase_database-7.2.2/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-10.0.7/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/firebase_storage-10.0.3/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/flutter_geofire-2.0.0/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-8.2.0/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.3/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/geocoding-2.0.1/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/geolocator_android-1.0.1/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-2.0.9/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.0/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+2/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/just_audio-0.9.11/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/location-4.3.0/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.4/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/permission_handler-8.1.6/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.7/android" />
+            <option value="$USER_HOME$/Development/flutter_2.2.3/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/android" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

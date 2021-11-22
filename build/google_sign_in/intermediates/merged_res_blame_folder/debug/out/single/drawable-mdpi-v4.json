@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/6e85bab395cf085cef29c1cdbf81b487/transformed/jetified-play-services-base-16.0.1/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/6e85bab395cf085cef29c1cdbf81b487/transformed/jetified-play-services-base-16.0.1/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/6e85bab395cf085cef29c1cdbf81b487/transformed/jetified-play-services-base-16.0.1/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/6e85bab395cf085cef29c1cdbf81b487/transformed/jetified-play-services-base-16.0.1/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/6e85bab395cf085cef29c1cdbf81b487/transformed/jetified-play-services-base-16.0.1/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/6e85bab395cf085cef29c1cdbf81b487/transformed/jetified-play-services-base-16.0.1/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_res/debug/values-pa/values-pa.xml",
+            "map": [
+                {
+                    "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/values-pa/values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
+            "map": [
+                {
+                    "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/values-pa/values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

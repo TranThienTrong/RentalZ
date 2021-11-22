@@ -1,0 +1,755 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.rental_apartments_finder"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:11:5-66
+14-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:4:5-79
+15-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:4:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:5:5-80
+16-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:5:22-78
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:6:5-64
+17-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:6:22-62
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:7:5-79
+18-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:7:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:8:5-81
+19-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:8:22-78
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:9:5-85
+20-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:9:22-82
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:10:5-77
+21-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:10:22-74
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:12:5-65
+22-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:12:22-63
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+23-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+24-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+25-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-78
+26    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+26-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
+27-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+27-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+28    <queries>
+28-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:10:5-14:15
+29
+30        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+31        <package android:name="com.android.chrome" />
+31-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:13:9-54
+31-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:13:18-51
+32
+33        <intent>
+33-->[androidx.media2:media2-session:1.1.3] /Users/trong/.gradle/caches/transforms-3/47dbc65fff51f5597595941a368e448c/transformed/jetified-media2-session-1.1.3/AndroidManifest.xml:25:9-27:18
+34            <action android:name="android.media.browse.MediaBrowserService" />
+34-->[androidx.media2:media2-session:1.1.3] /Users/trong/.gradle/caches/transforms-3/47dbc65fff51f5597595941a368e448c/transformed/jetified-media2-session-1.1.3/AndroidManifest.xml:26:13-79
+34-->[androidx.media2:media2-session:1.1.3] /Users/trong/.gradle/caches/transforms-3/47dbc65fff51f5597595941a368e448c/transformed/jetified-media2-session-1.1.3/AndroidManifest.xml:26:21-76
+35        </intent>
+36        <intent>
+36-->[androidx.media2:media2-session:1.1.3] /Users/trong/.gradle/caches/transforms-3/47dbc65fff51f5597595941a368e448c/transformed/jetified-media2-session-1.1.3/AndroidManifest.xml:28:9-30:18
+37            <action android:name="androidx.media2.session.MediaSessionService" />
+37-->[androidx.media2:media2-session:1.1.3] /Users/trong/.gradle/caches/transforms-3/47dbc65fff51f5597595941a368e448c/transformed/jetified-media2-session-1.1.3/AndroidManifest.xml:29:13-82
+37-->[androidx.media2:media2-session:1.1.3] /Users/trong/.gradle/caches/transforms-3/47dbc65fff51f5597595941a368e448c/transformed/jetified-media2-session-1.1.3/AndroidManifest.xml:29:21-79
+38        </intent>
+39        <intent>
+39-->[androidx.media2:media2-session:1.1.3] /Users/trong/.gradle/caches/transforms-3/47dbc65fff51f5597595941a368e448c/transformed/jetified-media2-session-1.1.3/AndroidManifest.xml:31:9-33:18
+40            <action android:name="androidx.media2.session.MediaLibraryService" />
+40-->[androidx.media2:media2-session:1.1.3] /Users/trong/.gradle/caches/transforms-3/47dbc65fff51f5597595941a368e448c/transformed/jetified-media2-session-1.1.3/AndroidManifest.xml:32:13-82
+40-->[androidx.media2:media2-session:1.1.3] /Users/trong/.gradle/caches/transforms-3/47dbc65fff51f5597595941a368e448c/transformed/jetified-media2-session-1.1.3/AndroidManifest.xml:32:21-79
+41        </intent>
+42    </queries>
+43
+44    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+44-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:5-110
+44-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
+45
+46    <uses-feature
+46-->[com.google.android.gms:play-services-maps:17.0.0] /Users/trong/.gradle/caches/transforms-3/52a9ecd6ebd5d2e8debed925f64a4354/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+47        android:glEsVersion="0x00020000"
+47-->[com.google.android.gms:play-services-maps:17.0.0] /Users/trong/.gradle/caches/transforms-3/52a9ecd6ebd5d2e8debed925f64a4354/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+48        android:required="true" />
+48-->[com.google.android.gms:play-services-maps:17.0.0] /Users/trong/.gradle/caches/transforms-3/52a9ecd6ebd5d2e8debed925f64a4354/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+49
+50    <application
+50-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:14:4-47:19
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.5.0] /Users/trong/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+52        android:debuggable="true"
+53        android:extractNativeLibs="false"
+54        android:icon="@mipmap/ic_launcher"
+54-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:16:9-43
+55        android:label="rental_apartments_finder"
+55-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:15:9-49
+56        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+56-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:9:18-74
+57        android:usesCleartextTraffic="true" >
+57-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:17:9-44
+58        <meta-data
+58-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:19:8-20:69
+59            android:name="com.google.android.geo.API_KEY"
+59-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:19:19-64
+60            android:value="AIzaSyB7G5FtGhn9ybJcO_DSQnsBNBMvJp_r9nY" />
+60-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:20:12-67
+61
+62        <activity
+62-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:22:9-41:20
+63            android:name="com.example.rental_apartments_finder.MainActivity"
+63-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:23:13-41
+64            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+64-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:26:13-163
+65            android:hardwareAccelerated="true"
+65-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:27:13-47
+66            android:launchMode="singleTop"
+66-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:24:13-43
+67            android:theme="@style/LaunchTheme"
+67-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:25:13-47
+68            android:windowSoftInputMode="adjustResize" >
+68-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:28:13-55
+69
+70            <!--
+71                 Specifies an Android theme to apply to this Activity as soon as
+72                 the Android process has started. This theme is visible to the user
+73                 while the Flutter UI initializes. After that, this theme continues
+74                 to determine the Window background behind the Flutter UI.
+75            -->
+76            <meta-data
+76-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:33:13-36:17
+77                android:name="io.flutter.embedding.android.NormalTheme"
+77-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:34:15-70
+78                android:resource="@style/NormalTheme" />
+78-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:35:15-52
+79
+80            <intent-filter>
+80-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:37:13-40:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:38:17-68
+81-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:38:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:39:17-76
+83-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:39:27-74
+84            </intent-filter>
+85        </activity>
+86        <!--
+87             Don't delete the meta-data below.
+88             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+89        -->
+90        <meta-data
+90-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:44:9-46:33
+91            android:name="flutterEmbedding"
+91-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:45:13-44
+92            android:value="2" />
+92-->/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/android/app/src/main/AndroidManifest.xml:46:13-30
+93
+94        <service
+94-->[:firebase_database] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+95            android:name="com.google.firebase.components.ComponentDiscoveryService"
+95-->[:firebase_database] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:20.0.0] /Users/trong/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+98            <meta-data
+98-->[:firebase_database] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+99-->[:firebase_database] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-127
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[:firebase_database] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+101            <meta-data
+101-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-36:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+102-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-128
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:36:17-82
+104            <meta-data
+104-->[:cloud_firestore] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+105-->[:cloud_firestore] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:cloud_firestore] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+107            <meta-data
+107-->[:firebase_analytics] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+108-->[:firebase_analytics] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-127
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_analytics] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-82
+110            <meta-data
+110-->[:firebase_auth] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+111-->[:firebase_auth] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:firebase_auth] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+113            <meta-data
+113-->[:firebase_storage] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+114-->[:firebase_storage] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_storage] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+116            <meta-data
+116-->[:firebase_core] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+117                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+117-->[:firebase_core] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[:firebase_core] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+120                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+120-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/trong/.gradle/caches/transforms-3/cda381e6d581a21f8ef1d05d72493df3/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+123                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+123-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/trong/.gradle/caches/transforms-3/cda381e6d581a21f8ef1d05d72493df3/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/trong/.gradle/caches/transforms-3/cda381e6d581a21f8ef1d05d72493df3/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+126                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+126-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-firestore:23.0.3] /Users/trong/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+129                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+129-->[com.google.firebase:firebase-firestore:23.0.3] /Users/trong/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-firestore:23.0.3] /Users/trong/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-storage:20.0.0] /Users/trong/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+132                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+132-->[com.google.firebase:firebase-storage:20.0.0] /Users/trong/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-storage:20.0.0] /Users/trong/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-database:20.0.1] /Users/trong/.gradle/caches/transforms-3/7b400ea217a8bf9c711ec34916c87208/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:32:13-34:85
+135                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+135-->[com.google.firebase:firebase-database:20.0.1] /Users/trong/.gradle/caches/transforms-3/7b400ea217a8bf9c711ec34916c87208/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:33:17-109
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-database:20.0.1] /Users/trong/.gradle/caches/transforms-3/7b400ea217a8bf9c711ec34916c87208/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:34:17-82
+137            <meta-data
+137-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trong/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
+138                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+138-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trong/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trong/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-installations:17.0.0] /Users/trong/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+141                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+141-->[com.google.firebase:firebase-installations:17.0.0] /Users/trong/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-installations:17.0.0] /Users/trong/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+143        </service>
+144        <service
+144-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-15:72
+145            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+145-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-107
+146            android:exported="false"
+146-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+147            android:permission="android.permission.BIND_JOB_SERVICE" />
+147-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-69
+148        <service
+148-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-22:19
+149            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+149-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-97
+150            android:exported="false" >
+150-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+151            <intent-filter>
+151-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+152                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+152-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-78
+152-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-75
+153            </intent-filter>
+154        </service>
+155
+156        <receiver
+156-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-31:20
+157            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+157-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-98
+158            android:exported="true"
+158-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-36
+159            android:permission="com.google.android.c2dm.permission.SEND" >
+159-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-73
+160            <intent-filter>
+160-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:29
+161                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+161-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-81
+161-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-78
+162            </intent-filter>
+163        </receiver>
+164
+165        <provider
+165-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:9-43:38
+166            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+166-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-102
+167            android:authorities="com.example.rental_apartments_finder.flutterfirebasemessaginginitprovider"
+167-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-88
+168            android:exported="false"
+168-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-37
+169            android:initOrder="99" />
+169-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-35
+170        <provider
+170-->[:image_picker] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+171            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+171-->[:image_picker] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
+172            android:authorities="com.example.rental_apartments_finder.flutter.image_provider"
+172-->[:image_picker] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
+173            android:exported="false"
+173-->[:image_picker] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+174            android:grantUriPermissions="true" >
+174-->[:image_picker] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+175            <meta-data
+175-->[:image_picker] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+176                android:name="android.support.FILE_PROVIDER_PATHS"
+176-->[:image_picker] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+177                android:resource="@xml/flutter_image_picker_file_paths" />
+177-->[:image_picker] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+178        </provider>
+179
+180        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+180-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-106
+180-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:19-103
+181        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+181-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-20:20
+181-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:19-107
+182            <intent-filter>
+182-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-19:29
+183                <action android:name="android.intent.action.BOOT_COMPLETED" />
+183-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-79
+183-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:25-76
+184                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+184-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-84
+184-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:25-81
+185                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+185-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+185-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:25-79
+186                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+186-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-82
+186-->[:flutter_local_notifications] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:25-79
+187            </intent-filter>
+188        </receiver>
+189
+190        <meta-data
+190-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+191            android:name="com.google.android.gms.wallet.api.enabled"
+191-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-69
+192            android:value="true" />
+192-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+193
+194        <activity
+194-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:75
+195            android:name="com.gettipsi.stripe.OpenBrowserActivity"
+195-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-67
+196            android:exported="false"
+196-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+197            android:launchMode="singleTask"
+197-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+198            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+198-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-72
+199        <activity
+199-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-32:20
+200            android:name="com.gettipsi.stripe.RedirectUriReceiver"
+200-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-67
+201            android:exported="true"
+201-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+202            android:launchMode="singleTask"
+202-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+203-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-83
+204            <intent-filter>
+204-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-31:29
+205                <action android:name="android.intent.action.VIEW" />
+205-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-69
+205-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-66
+206
+207                <category android:name="android.intent.category.DEFAULT" />
+207-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-76
+207-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:27-73
+208                <category android:name="android.intent.category.BROWSABLE" />
+208-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-78
+208-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:28:27-75
+209
+210                <data android:scheme="example" />
+210-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-50
+210-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:30:23-47
+211            </intent-filter>
+212        </activity>
+213
+214        <service
+214-->[:location] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-15:56
+215            android:name="com.lyokone.location.FlutterLocationService"
+215-->[:location] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+216            android:enabled="true"
+216-->[:location] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-35
+217            android:exported="false"
+217-->[:location] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+218            android:foregroundServiceType="location" />
+218-->[:location] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-53
+219
+220        <receiver
+220-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+221            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+221-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+222            android:exported="true"
+222-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+223            android:permission="com.google.android.c2dm.permission.SEND" >
+223-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+224            <intent-filter>
+224-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:29
+225                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+225-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-81
+225-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-78
+226            </intent-filter>
+227        </receiver>
+228        <!--
+229             FirebaseMessagingService performs security checks at runtime,
+230             but set to not exported to explicitly avoid allowing another app to call it.
+231        -->
+232        <service
+232-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+233            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+233-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+234            android:directBootAware="true"
+234-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+235            android:exported="false" >
+235-->[com.google.firebase:firebase-messaging:22.0.0] /Users/trong/.gradle/caches/transforms-3/6e2911ff4a96486920a1a70539b6e472/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+236            <intent-filter android:priority="-500" >
+236-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+237                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+237-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-78
+237-->[:firebase_messaging] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-75
+238            </intent-filter>
+239        </service>
+240        <service
+240-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/trong/.gradle/caches/transforms-3/b9467e55791a83d5eda643e07853109f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+241            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+241-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/trong/.gradle/caches/transforms-3/b9467e55791a83d5eda643e07853109f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+242            android:exported="false" >
+242-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/trong/.gradle/caches/transforms-3/b9467e55791a83d5eda643e07853109f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+243            <meta-data
+243-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/trong/.gradle/caches/transforms-3/b9467e55791a83d5eda643e07853109f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+244                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+244-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/trong/.gradle/caches/transforms-3/b9467e55791a83d5eda643e07853109f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+245                android:value="cct" />
+245-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/trong/.gradle/caches/transforms-3/b9467e55791a83d5eda643e07853109f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+246        </service>
+247
+248        <activity
+248-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+249            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+249-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+250            android:excludeFromRecents="true"
+250-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+251            android:exported="true"
+251-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+252            android:launchMode="singleTask"
+252-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+253            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+253-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+254            <intent-filter>
+254-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+255                <action android:name="android.intent.action.VIEW" />
+255-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-69
+255-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-66
+256
+257                <category android:name="android.intent.category.DEFAULT" />
+257-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-76
+257-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:27-73
+258                <category android:name="android.intent.category.BROWSABLE" />
+258-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-78
+258-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:28:27-75
+259
+260                <data
+260-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-50
+261                    android:host="firebase.auth"
+262                    android:path="/"
+263                    android:scheme="genericidp" />
+263-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:30:23-47
+264            </intent-filter>
+265        </activity>
+266        <activity
+266-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+267            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+267-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+268            android:excludeFromRecents="true"
+268-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+269            android:exported="true"
+269-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+270            android:launchMode="singleTask"
+270-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+271            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+271-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+272            <intent-filter>
+272-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+273                <action android:name="android.intent.action.VIEW" />
+273-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-69
+273-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-66
+274
+275                <category android:name="android.intent.category.DEFAULT" />
+275-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-76
+275-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:27-73
+276                <category android:name="android.intent.category.BROWSABLE" />
+276-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-78
+276-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:28:27-75
+277
+278                <data
+278-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-50
+279                    android:host="firebase.auth"
+280                    android:path="/"
+281                    android:scheme="recaptcha" />
+281-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:30:23-47
+282            </intent-filter>
+283        </activity>
+284
+285        <service
+285-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+286            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+286-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+287            android:enabled="true"
+287-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+288            android:exported="false" >
+288-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+289            <intent-filter>
+289-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+290                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+290-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+290-->[com.google.firebase:firebase-auth:21.0.1] /Users/trong/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+291
+292                <category android:name="android.intent.category.DEFAULT" />
+292-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-76
+292-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:27-73
+293            </intent-filter>
+294        </service>
+295
+296        <provider
+296-->[com.google.firebase:firebase-common:20.0.0] /Users/trong/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+297            android:name="com.google.firebase.provider.FirebaseInitProvider"
+297-->[com.google.firebase:firebase-common:20.0.0] /Users/trong/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+298            android:authorities="com.example.rental_apartments_finder.firebaseinitprovider"
+298-->[com.google.firebase:firebase-common:20.0.0] /Users/trong/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+299            android:directBootAware="true"
+299-->[com.google.firebase:firebase-common:20.0.0] /Users/trong/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+300            android:exported="false"
+300-->[com.google.firebase:firebase-common:20.0.0] /Users/trong/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+301            android:initOrder="100" />
+301-->[com.google.firebase:firebase-common:20.0.0] /Users/trong/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+302
+303        <activity
+303-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:17:9-19:57
+304            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+304-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:18:13-76
+305            android:theme="@style/StripeDefaultTheme" />
+305-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:19:13-54
+306        <activity
+306-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:20:9-22:57
+307            android:name="com.stripe.android.view.PaymentMethodsActivity"
+307-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:21:13-74
+308            android:theme="@style/StripeDefaultTheme" />
+308-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:22:13-54
+309        <activity
+309-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:23:9-25:57
+310            android:name="com.stripe.android.view.PaymentFlowActivity"
+310-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:24:13-71
+311            android:theme="@style/StripeDefaultTheme" />
+311-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:25:13-54
+312        <activity
+312-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:26:9-29:58
+313            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+313-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:27:13-78
+314            android:theme="@style/StripeDefaultTheme"
+314-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:28:13-54
+315            android:windowSoftInputMode="adjustResize" />
+315-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:29:13-55
+316        <activity
+316-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:30:9-32:61
+317            android:name="com.stripe.android.view.PaymentRelayActivity"
+317-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:31:13-72
+318            android:theme="@style/StripeTransparentTheme" />
+318-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:32:13-58
+319        <!--
+320        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+321        launched the browser Activity will also handle the return URL deep link.
+322        -->
+323        <activity
+323-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:38:9-54:20
+324            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+324-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:39:13-85
+325            android:launchMode="singleTop"
+325-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:40:13-43
+326            android:theme="@style/StripeTransparentTheme" >
+326-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:41:13-58
+327            <intent-filter>
+327-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:42:13-53:29
+328                <action android:name="android.intent.action.VIEW" />
+328-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-69
+328-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-66
+329
+330                <category android:name="android.intent.category.DEFAULT" />
+330-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-76
+330-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:27:27-73
+331                <category android:name="android.intent.category.BROWSABLE" />
+331-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-78
+331-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:28:27-75
+332
+333                <!-- Must match `DefaultReturnUrl#value`. -->
+334                <data
+334-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-50
+335                    android:host="payment_return_url"
+336                    android:path="/com.example.rental_apartments_finder"
+337                    android:scheme="stripesdk" />
+337-->[:stripe_payment] /Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/stripe_payment/intermediates/merged_manifest/debug/AndroidManifest.xml:30:23-47
+338            </intent-filter>
+339        </activity>
+340        <activity
+340-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:55:9-57:57
+341            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+341-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:56:13-80
+342            android:theme="@style/StripeDefaultTheme" />
+342-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:57:13-54
+343        <activity
+343-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:58:9-60:69
+344            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+344-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:59:13-80
+345            android:theme="@style/StripePaymentSheetDefaultTheme" />
+345-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:60:13-66
+346        <activity
+346-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:61:9-63:69
+347            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+347-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:62:13-82
+348            android:theme="@style/StripePaymentSheetDefaultTheme" />
+348-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:63:13-66
+349        <activity
+349-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:64:9-66:66
+350            android:name="com.stripe.android.googlepay.StripeGooglePayActivity"
+350-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:65:13-80
+351            android:theme="@style/StripeGooglePayDefaultTheme" />
+351-->[com.stripe:payments-core:16.10.0] /Users/trong/.gradle/caches/transforms-3/9408ee53d29fadb30cb41262caac064a/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:66:13-63
+352
+353        <receiver
+353-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
+354            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+354-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
+355            android:enabled="true"
+355-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
+356            android:exported="false" >
+356-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
+357        </receiver>
+358
+359        <service
+359-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
+360            android:name="com.google.android.gms.measurement.AppMeasurementService"
+360-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
+361            android:enabled="true"
+361-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
+362            android:exported="false" />
+362-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
+363        <service
+363-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
+364            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+364-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
+365            android:enabled="true"
+365-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
+366            android:exported="false"
+366-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
+367            android:permission="android.permission.BIND_JOB_SERVICE" />
+367-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/trong/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
+368
+369        <activity
+369-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/trong/.gradle/caches/transforms-3/4095ba467cbff7a1b5c20a8dba979c78/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:10:9-12:54
+370            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+370-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/trong/.gradle/caches/transforms-3/4095ba467cbff7a1b5c20a8dba979c78/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:11:13-81
+371            android:theme="@style/Stripe3DS2Theme" />
+371-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/trong/.gradle/caches/transforms-3/4095ba467cbff7a1b5c20a8dba979c78/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:12:13-51
+372        <activity
+372-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/trong/.gradle/caches/transforms-3/4095ba467cbff7a1b5c20a8dba979c78/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:13:9-15:54
+373            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+373-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/trong/.gradle/caches/transforms-3/4095ba467cbff7a1b5c20a8dba979c78/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:14:13-89
+374            android:theme="@style/Stripe3DS2Theme" />
+374-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/trong/.gradle/caches/transforms-3/4095ba467cbff7a1b5c20a8dba979c78/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:15:13-51
+375
+376        <service
+376-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/trong/.gradle/caches/transforms-3/4fb14725412ec96c9b39ddfab36c6dd0/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+377            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+377-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/trong/.gradle/caches/transforms-3/4fb14725412ec96c9b39ddfab36c6dd0/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+378            android:exported="false"
+378-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/trong/.gradle/caches/transforms-3/4fb14725412ec96c9b39ddfab36c6dd0/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+379            android:permission="android.permission.BIND_JOB_SERVICE" >
+379-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/trong/.gradle/caches/transforms-3/4fb14725412ec96c9b39ddfab36c6dd0/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+380        </service>
+381
+382        <receiver
+382-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/trong/.gradle/caches/transforms-3/4fb14725412ec96c9b39ddfab36c6dd0/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+383            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+383-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/trong/.gradle/caches/transforms-3/4fb14725412ec96c9b39ddfab36c6dd0/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+384            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+384-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/trong/.gradle/caches/transforms-3/4fb14725412ec96c9b39ddfab36c6dd0/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+385        <uses-library
+385-->[com.google.android.gms:play-services-maps:17.0.0] /Users/trong/.gradle/caches/transforms-3/52a9ecd6ebd5d2e8debed925f64a4354/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+386            android:name="org.apache.http.legacy"
+386-->[com.google.android.gms:play-services-maps:17.0.0] /Users/trong/.gradle/caches/transforms-3/52a9ecd6ebd5d2e8debed925f64a4354/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+387            android:required="false" />
+387-->[com.google.android.gms:play-services-maps:17.0.0] /Users/trong/.gradle/caches/transforms-3/52a9ecd6ebd5d2e8debed925f64a4354/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+388
+389        <activity
+389-->[com.google.android.gms:play-services-auth:16.0.1] /Users/trong/.gradle/caches/transforms-3/f40921e441286a0b815d4dc1b46316e4/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+390            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+390-->[com.google.android.gms:play-services-auth:16.0.1] /Users/trong/.gradle/caches/transforms-3/f40921e441286a0b815d4dc1b46316e4/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+391            android:excludeFromRecents="true"
+391-->[com.google.android.gms:play-services-auth:16.0.1] /Users/trong/.gradle/caches/transforms-3/f40921e441286a0b815d4dc1b46316e4/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+392            android:exported="false"
+392-->[com.google.android.gms:play-services-auth:16.0.1] /Users/trong/.gradle/caches/transforms-3/f40921e441286a0b815d4dc1b46316e4/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+393            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+393-->[com.google.android.gms:play-services-auth:16.0.1] /Users/trong/.gradle/caches/transforms-3/f40921e441286a0b815d4dc1b46316e4/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+394        <!--
+395            Service handling Google Sign-In user revocation. For apps that do not integrate with
+396            Google Sign-In, this service will never be started.
+397        -->
+398        <service
+398-->[com.google.android.gms:play-services-auth:16.0.1] /Users/trong/.gradle/caches/transforms-3/f40921e441286a0b815d4dc1b46316e4/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+399            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+399-->[com.google.android.gms:play-services-auth:16.0.1] /Users/trong/.gradle/caches/transforms-3/f40921e441286a0b815d4dc1b46316e4/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+400            android:exported="true"
+400-->[com.google.android.gms:play-services-auth:16.0.1] /Users/trong/.gradle/caches/transforms-3/f40921e441286a0b815d4dc1b46316e4/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+401            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+401-->[com.google.android.gms:play-services-auth:16.0.1] /Users/trong/.gradle/caches/transforms-3/f40921e441286a0b815d4dc1b46316e4/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+402
+403        <activity
+403-->[com.google.android.gms:play-services-base:17.5.0] /Users/trong/.gradle/caches/transforms-3/30e1d9fe8485040957368660f84fe49b/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+404            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+404-->[com.google.android.gms:play-services-base:17.5.0] /Users/trong/.gradle/caches/transforms-3/30e1d9fe8485040957368660f84fe49b/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+405            android:exported="false"
+405-->[com.google.android.gms:play-services-base:17.5.0] /Users/trong/.gradle/caches/transforms-3/30e1d9fe8485040957368660f84fe49b/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+406            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+406-->[com.google.android.gms:play-services-base:17.5.0] /Users/trong/.gradle/caches/transforms-3/30e1d9fe8485040957368660f84fe49b/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+407
+408        <meta-data
+408-->[com.google.android.gms:play-services-basement:17.5.0] /Users/trong/.gradle/caches/transforms-3/4e47f34fef273f1ed37b379a4603c6d2/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+409            android:name="com.google.android.gms.version"
+409-->[com.google.android.gms:play-services-basement:17.5.0] /Users/trong/.gradle/caches/transforms-3/4e47f34fef273f1ed37b379a4603c6d2/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+410            android:value="@integer/google_play_services_version" />
+410-->[com.google.android.gms:play-services-basement:17.5.0] /Users/trong/.gradle/caches/transforms-3/4e47f34fef273f1ed37b379a4603c6d2/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+411    </application>
+412
+413</manifest>

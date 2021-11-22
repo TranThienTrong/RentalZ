@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/path_provider/intermediates/merged_res/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/path_provider/intermediates/merged_res/debug/layout-v21/notification_action.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/path_provider/intermediates/merged_res/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/path_provider/intermediates/merged_res/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

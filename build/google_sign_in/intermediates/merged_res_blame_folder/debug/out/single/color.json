@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/6e85bab395cf085cef29c1cdbf81b487/transformed/jetified-play-services-base-16.0.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/6e85bab395cf085cef29c1cdbf81b487/transformed/jetified-play-services-base-16.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_sign_in/intermediates/merged_res/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/6e85bab395cf085cef29c1cdbf81b487/transformed/jetified-play-services-base-16.0.1/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sv-rSE/values-sv-rSE.xml",
+            "map": [
+                {
+                    "source": "/Users/trong/.gradle/caches/transforms-3/4095ba467cbff7a1b5c20a8dba979c78/transformed/jetified-stripe-3ds2-android-5.3.1/res/values-sv-rSE/values-sv-rSE.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,186,254,310,398,496,563,630,694,767",
+                        "endColumns": "67,62,67,55,87,97,66,66,63,72,67",
+                        "endOffsets": "118,181,249,305,393,491,558,625,689,762,830"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_res/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_res/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_res/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/image_picker/intermediates/merged_res/debug/drawable/notification_bg.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/314d72a806fe96257f2dc8f71dcbfc4a/transformed/core-1.1.0/res/drawable/notification_bg.xml"
+    }
+]

@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/rental_apartments_finder/MainActivity.java
+ com.example.rental_apartments_finder.MainActivity
+com/example/rental_apartments_finder/BuildConfig.java
+ com.example.rental_apartments_finder.BuildConfig

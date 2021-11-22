@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_maps_flutter/intermediates/merged_res/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/962bfd0d3bef4f910e82d02ee9b7154b/transformed/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_maps_flutter/intermediates/merged_res/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/962bfd0d3bef4f910e82d02ee9b7154b/transformed/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/trong/Documents/Documents-Cloud/DEV/Flutter/All_Projects/rental_apartments_finder/build/google_maps_flutter/intermediates/merged_res/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/trong/.gradle/caches/transforms-3/962bfd0d3bef4f910e82d02ee9b7154b/transformed/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

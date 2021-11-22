@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">606512118542-42gq67ka6d1j03vtl2faga5dac4ia931.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">606512118542</string>
+    <string name="google_api_key" translatable="false">AIzaSyB7G5FtGhn9ybJcO_DSQnsBNBMvJp_r9nY</string>
+    <string name="google_app_id" translatable="false">1:606512118542:android:c17cad05195174d5ce755f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB7G5FtGhn9ybJcO_DSQnsBNBMvJp_r9nY</string>
+    <string name="google_storage_bucket" translatable="false">rental-apartment-69e2b.appspot.com</string>
+    <string name="project_id" translatable="false">rental-apartment-69e2b</string>
+</resources>

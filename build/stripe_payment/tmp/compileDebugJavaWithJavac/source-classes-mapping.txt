@@ -1,0 +1,67 @@
+com/facebook/react/bridge/ReactContextBaseJavaModule.java
+ com.facebook.react.bridge.ReactContextBaseJavaModule
+com/gettipsi/stripe/util/PayParams.java
+ com.gettipsi.stripe.util.PayParams
+com/gettipsi/stripe/util/Converters.java
+ com.gettipsi.stripe.util.Converters
+com/gettipsi/stripe/util/ArgCheck.java
+ com.gettipsi.stripe.util.ArgCheck
+de/jonasbark/stripepayment/BuildConfig.java
+ de.jonasbark.stripepayment.BuildConfig
+com/facebook/react/bridge/BaseActivityEventListener.java
+ com.facebook.react.bridge.BaseActivityEventListener
+com/facebook/react/bridge/ReadableMap.java
+ com.facebook.react.bridge.ReadableMap
+com/gettipsi/stripe/util/InitializationOptions.java
+ com.gettipsi.stripe.util.InitializationOptions
+com/facebook/react/bridge/ReadableArray.java
+ com.facebook.react.bridge.ReadableArray
+com/gettipsi/stripe/util/Fun0.java
+ com.gettipsi.stripe.util.Fun0
+com/facebook/react/bridge/WritableNativeMap.java
+ com.facebook.react.bridge.WritableNativeMap
+com/gettipsi/stripe/PayFlow.java
+ com.gettipsi.stripe.PayFlow
+com/facebook/react/bridge/ReactMethod.java
+ com.facebook.react.bridge.ReactMethod
+com/facebook/react/bridge/WritableNativeArray.java
+ com.facebook.react.bridge.WritableNativeArray
+com/gettipsi/stripe/RedirectUriReceiver.java
+ com.gettipsi.stripe.RedirectUriReceiver
+com/gettipsi/stripe/util/Action.java
+ com.gettipsi.stripe.util.Action
+com/facebook/react/bridge/ActivityEventListener.java
+ com.facebook.react.bridge.ActivityEventListener
+com/facebook/react/bridge/WritableArray.java
+ com.facebook.react.bridge.WritableArray
+com/facebook/react/bridge/WritableMap.java
+ com.facebook.react.bridge.WritableMap
+com/facebook/react/bridge/Promise.java
+ com.facebook.react.bridge.Promise
+com/facebook/react/bridge/Arguments.java
+ com.facebook.react.bridge.Arguments
+com/gettipsi/stripe/GoogleApiPayFlowImpl.java
+ com.gettipsi.stripe.GoogleApiPayFlowImpl
+ com.gettipsi.stripe.GoogleApiPayFlowImpl$1
+com/gettipsi/stripe/util/Utils.java
+ com.gettipsi.stripe.util.Utils
+com/gettipsi/stripe/StripeModule.java
+ com.gettipsi.stripe.StripeModule
+ com.gettipsi.stripe.StripeModule$1
+ com.gettipsi.stripe.StripeModule$10
+ com.gettipsi.stripe.StripeModule$11
+ com.gettipsi.stripe.StripeModule$12
+ com.gettipsi.stripe.StripeModule$2
+ com.gettipsi.stripe.StripeModule$3
+ com.gettipsi.stripe.StripeModule$4
+ com.gettipsi.stripe.StripeModule$5
+ com.gettipsi.stripe.StripeModule$6
+ com.gettipsi.stripe.StripeModule$7
+ com.gettipsi.stripe.StripeModule$7$1
+ com.gettipsi.stripe.StripeModule$8
+ com.gettipsi.stripe.StripeModule$8$1
+ com.gettipsi.stripe.StripeModule$9
+com/gettipsi/stripe/Errors.java
+ com.gettipsi.stripe.Errors
+com/gettipsi/stripe/OpenBrowserActivity.java
+ com.gettipsi.stripe.OpenBrowserActivity
